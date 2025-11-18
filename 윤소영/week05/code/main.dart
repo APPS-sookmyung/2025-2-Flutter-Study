@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
                 // size가 있는 box
                 const SizedBox(height: 80),
                 Row(
-                  // 글씨가 오른쪽 끝으로 가도록 설정
+                  // 글씨가 오른쪽 끝으로 가도록
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
                     Column(
@@ -65,10 +65,10 @@ class MyApp extends StatelessWidget {
                 ),
                 const SizedBox(height: 5),
                 Text(
-                  '\$5 194 482', // 변수가 아니라는 것을 나타내기 위한 '/'
+                  '\$5 194 482', // '\'는 변수가 아니라는 것을 나타내기 위함
                   style: TextStyle(
                     fontSize: 48,
-                    fontWeight: FontWeight.w600, // 글씨 굵기 조정
+                    fontWeight: FontWeight.w600,
                     color: Colors.white,
                   ),
                 ),

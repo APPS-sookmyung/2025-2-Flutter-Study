@@ -18,7 +18,8 @@ class CurrencyCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      clipBehavior: Clip.hardEdge, // 아이콘 튀어나오지 않도록
+      // 아이콘 튀어나오지 않도록 설정
+      clipBehavior: Clip.hardEdge,
       decoration: BoxDecoration(
         color: isInverted ? Colors.white : _blackColor,
         borderRadius: BorderRadius.circular(25),

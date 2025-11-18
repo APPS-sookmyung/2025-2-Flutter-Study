@@ -17,7 +17,8 @@ class Button extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         color: bgColor,
-        borderRadius: BorderRadius.circular(45), // 모서리 둥굴게
+        // 모서리 둥글게
+        borderRadius: BorderRadius.circular(45),
       ),
       child: Padding(
         padding: const EdgeInsets.symmetric(
